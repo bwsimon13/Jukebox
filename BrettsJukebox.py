@@ -352,7 +352,7 @@ while selection.lower() != 'q':
                 del library[i]
                 playlist_found = True
                 print(f"Playlist '{playlist_name}' has been deleted.")
-                break  # Exit the loop once the playlist is deleted
+                break  
 
         if not playlist_found:
             print("Playlist doesn't exist.")
